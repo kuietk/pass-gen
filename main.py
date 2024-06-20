@@ -26,7 +26,7 @@ print("")
 print("a : quick gen 12")
 print("b : quick gen 6")
 print("c : custom")
-
+print("d : quick custom")
 print("")
 
 grab = input(str("Please make a selection\n"))
@@ -51,7 +51,6 @@ elif grab == "b":
 	for char in range(1, 2):
 		password_list.append(random.choice(symbols))
 
-#FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
 elif grab == "c":
 
 	letter_amount = int(input("How many letters?\n"))
@@ -67,6 +66,20 @@ elif grab == "c":
 		password_list += random.choice(cap_letters)
 	for char in range(1, symbol_amount + 1):
 		password_list += random.choice(symbols)
+
+elif grab == "d":
+	length = int(input("how long of a password\n"))
+	lgh = int(length)
+	
+	for char in range(1, lgh - 3):
+		password_list.append(random.choice(letters))
+	for char in range(1, 3):
+		password_list += random.choice(numbers)
+	for char in range(1, 2):
+		password_list += random.choice(cap_letters)
+	for char in range(1, 2):
+		password_list += random.choice(symbols)
+	
 else:
 	os.system("clear")
 	print("read the fuckin prompt")
@@ -80,5 +93,3 @@ for char in password_list:
 	password += char
 
 print(password)
-
-print(boop)
