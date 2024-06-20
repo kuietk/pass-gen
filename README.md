@@ -1,4 +1,5 @@
-# simple little password generator
+#PASS-GEN
+- a simple little password generator
 - fairly easy to operate
 - written in python
 - 18+ for error code
