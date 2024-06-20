@@ -1,2 +1,3 @@
 # simple little password generator,
-# fairly easy to operate
+- fairly easy to operate
+- written in python
