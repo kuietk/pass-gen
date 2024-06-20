@@ -22,7 +22,7 @@ password = ""
 os.system("clear")
 print("--------------------")
 print(" PASSWORD GENERATOR ")
-print("--------------v0.06-")
+print("--------------v0.08-")
 print("")
 print("a : quick gen 12")
 print("b : quick gen 6")
@@ -95,4 +95,4 @@ for char in password_list:
 
 print(password)
 
-pc.copy(password)
+pc.copy(password) 
