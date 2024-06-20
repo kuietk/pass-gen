@@ -13,4 +13,4 @@
 ## IN PROGRESS:
 - make an accessibility option that lets you use numbers instead of letters as your selection
 - tidy up the code and UX
-- make 
+- make the quick gen be auto selected on no input
