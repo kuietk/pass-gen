@@ -3,6 +3,7 @@
 #------------------#
 
 import random, os
+import pyperclip as pc
 
 #VARIABLES
 
@@ -93,3 +94,5 @@ for char in password_list:
 	password += char
 
 print(password)
+
+pc.copy(password)
